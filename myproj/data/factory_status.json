@@ -1,0 +1,83 @@
+{
+  "factory": {
+    "factory_id": "DJ-01",
+    "name": "대전 스마트팩토리 실습 공장",
+    "lines": [
+      {
+        "line_id": "A",
+        "product": "Module-X",
+        "machines": [
+          {
+            "machine_id": "A-01",
+            "type": "press",
+            "status": "running",
+            "sensor": {
+              "temperature": 52.3,
+              "vibration": 2.1,
+              "pressure": 1.01
+            },
+            "maintenance": {
+              "last_date": "2026-09-01",
+              "next_date": "2026-10-01",
+              "items": [
+                "bearing",
+                "lubrication",
+                "filter"
+              ]
+            }
+          },
+          {
+            "machine_id": "A-02",
+            "type": "welder",
+            "status": "warning",
+            "sensor": {
+              "temperature": 77.8,
+              "vibration": 4.6,
+              "pressure": 1.03
+            },
+            "alarms": [
+              {
+                "time": "2026-09-22T08:30:00",
+                "code": "TEMP_HIGH"
+              },
+              {
+                "time": "2026-09-22T08:42:00",
+                "code": "TEMP_HIGH"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "line_id": "B",
+        "product": "Module-Y",
+        "machines": [
+          {
+            "machine_id": "B-01",
+            "type": "inspection",
+            "status": "stopped",
+            "sensor": {
+              "temperature": 25.1,
+              "vibration": 0.2,
+              "pressure": 0.0
+            },
+            "stop_reason": {
+              "category": "planned",
+              "description": "camera calibration"
+            }
+          }
+        ]
+      }
+    ],
+    "daily_summary": {
+      "date": "2026-09-22",
+      "production": 12840,
+      "defects": 96,
+      "oee": 0.873,
+      "notes": [
+        "A-02 temperature warning occurred twice",
+        "B-01 planned calibration from 08:00 to 09:00"
+      ]
+    }
+  }
+}
