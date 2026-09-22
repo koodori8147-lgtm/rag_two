@@ -1,0 +1,31 @@
+﻿document_id,category,equipment,plant,severity,source,year,text
+M-001,maintenance,motor,plant_a,high,motor-guide.md,2026,모터 진동이 증가하면 베어링 마모와 축 정렬 상태를 우선 점검합니다.
+M-002,maintenance,motor,plant_a,medium,motor-guide.md,2026,모터 베어링 온도가 75도를 넘으면 윤활 상태와 냉각 상태를 확인합니다.
+M-003,maintenance,motor,plant_b,low,motor-guide.md,2026,모터의 정기 점검 주기는 3개월이며 진동과 온도 기록을 함께 확인합니다.
+M-004,maintenance,pump,plant_a,high,pump-guide.md,2026,펌프 진동이 5.0 mm/s를 초과하면 임펠러 불균형과 베어링 상태를 점검합니다.
+M-005,maintenance,pump,plant_b,medium,pump-guide.md,2026,펌프 흡입 압력이 낮으면 필터 막힘과 배관 누설 여부를 확인합니다.
+M-006,maintenance,compressor,plant_a,high,compressor-guide.md,2026,압축기 토출 압력이 기준보다 높으면 밸브 개도와 배관 막힘 상태를 점검합니다.
+M-007,maintenance,vacuum_pump,plant_a,high,vacuum-guide.md,2026,진공 챔버가 목표 압력에 도달하지 못하면 누설과 진공 펌프 성능을 확인합니다.
+M-008,maintenance,vacuum_pump,plant_b,medium,vacuum-guide.md,2026,진공 펌프 오일은 오염도와 사용 시간을 기준으로 교체 주기를 관리합니다.
+M-009,maintenance,bearing,plant_a,medium,lubrication-guide.md,2026,베어링 윤활유는 6개월 또는 2000시간 운전 후 교체합니다.
+M-010,maintenance,bearing,plant_b,low,lubrication-guide.md,2026,윤활 부족은 베어링 소음과 온도 상승의 원인이 될 수 있습니다.
+S-001,safety,press,plant_a,critical,safety-guide.md,2026,프레스 설비 내부에 진입하기 전 메인 전원을 차단하고 잠금 절차를 수행해야 합니다.
+S-002,safety,press,plant_b,critical,safety-guide.md,2026,비상 정지 버튼이 눌리면 설비 동작을 즉시 중단하고 원인을 확인해야 합니다.
+S-003,safety,oven,plant_a,high,safety-guide.md,2026,오븐 온도가 200도를 초과하면 가열을 정지하고 냉각 계통을 확인합니다.
+S-004,safety,robot,plant_a,critical,safety-guide.md,2026,로봇 작업 반경에 사람이 들어가기 전 자동 운전을 해제하고 안전 인터록을 확인합니다.
+S-005,safety,conveyor,plant_b,high,safety-guide.md,2026,컨베이어 막힘 제거 작업 전 구동 전원을 차단하고 재가동 방지 표지를 설치합니다.
+Q-001,quality,vision,plant_a,medium,quality-guide.md,2026,비전 검사 위치 오차가 증가하면 카메라 캘리브레이션과 조명 상태를 확인합니다.
+Q-002,quality,welder,plant_a,high,quality-guide.md,2026,용접 강도가 기준보다 낮으면 전류와 가압 시간 조건을 점검합니다.
+Q-003,quality,press,plant_b,medium,quality-guide.md,2026,프레스 치수 불량이 증가하면 금형 마모와 위치 반복 정밀도를 확인합니다.
+Q-004,quality,appearance,plant_a,low,quality-guide.md,2026,제품 표면의 스크래치 불량은 이송 가이드와 접촉 부품 상태를 확인해야 합니다.
+Q-005,quality,inspection,plant_b,medium,quality-guide.md,2026,측정값이 공차를 벗어나면 계측기 교정 상태와 측정 조건을 우선 확인합니다.
+P-001,production,line_a,plant_a,low,production-guide.md,2026,라인 가동률은 설비 운전 시간에서 정지 시간을 제외해 계산합니다.
+P-002,production,line_a,plant_a,medium,production-guide.md,2026,설비 정지 시간이 증가하면 시간당 생산량과 OEE가 함께 감소할 수 있습니다.
+P-003,production,line_b,plant_b,low,production-guide.md,2026,계획 생산량 대비 실적을 비교해 일별 생산 달성률을 관리합니다.
+P-004,production,line_b,plant_b,medium,production-guide.md,2026,병목 공정의 사이클 타임이 증가하면 전체 라인 생산량이 감소합니다.
+E-001,energy,utility,plant_a,low,energy-guide.md,2026,대기 상태 설비의 전원을 자동 차단하면 불필요한 전력 사용을 줄일 수 있습니다.
+E-002,energy,compressor,plant_a,medium,energy-guide.md,2026,압축 공기 누설을 줄이면 공장 전체 전력 소비를 절감할 수 있습니다.
+E-003,energy,cooling,plant_b,low,energy-guide.md,2026,냉각수 펌프의 인버터 속도를 부하에 맞춰 제어하면 에너지 효율이 개선됩니다.
+E-004,energy,oven,plant_b,medium,energy-guide.md,2026,오븐의 대기 시간을 줄이고 예열 스케줄을 최적화하면 전력 사용량을 낮출 수 있습니다.
+L-001,logistics,agv,plant_a,medium,logistics-guide.md,2026,AGV 경로가 반복적으로 막히면 교차 구간의 우선순위와 대기 위치를 조정합니다.
+L-002,logistics,warehouse,plant_b,low,logistics-guide.md,2026,자재 입출고 위치를 고정하면 피킹 시간과 오배송을 줄일 수 있습니다.

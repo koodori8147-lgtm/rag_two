@@ -1,0 +1,28 @@
+{
+  "index_name": "equipment_manual",
+  "embedding": {
+    "provider": "openai",
+    "model": "text-embedding-3-small",
+    "dimensions": 1024
+  },
+  "chroma": {
+    "collection_name": "equipment_manual",
+    "persist_directory": "./data/chroma_db"
+  },
+  "faiss": {
+    "save_directory": "./data/faiss_equipment_index",
+    "warning": "신뢰할 수 있는 직접 생성 인덱스에만 pickle 역직렬화를 허용"
+  },
+  "pinecone": {
+    "index_name": "equipment-manual",
+    "namespace": "equipment-v1",
+    "dimension": 1024,
+    "metric": "cosine"
+  },
+  "recovery_checks": [
+    "프로세스 종료 후 다시 연결했을 때 검색되는가",
+    "문서 수와 문서 ID가 동일한가",
+    "같은 질문의 상위 검색 결과가 유지되는가",
+    "임베딩 모델과 차원이 기존 인덱스와 동일한가"
+  ]
+}

@@ -1,0 +1,11 @@
+﻿query_id,query,expected_doc_ids,filter_category,filter_equipment,filter_plant,recommended_k
+QRY-001,모터가 심하게 떨릴 때 무엇을 봐야 해?,M-001|M-004,maintenance,,,3
+QRY-002,진공이 원하는 수준까지 내려가지 않아,M-007,maintenance,vacuum_pump,,2
+QRY-003,베어링 윤활유 교체 주기 알려줘,M-009,maintenance,bearing,,2
+QRY-004,프레스 안에 들어가기 전에 해야 할 조치,S-001,safety,press,,2
+QRY-005,카메라 위치가 계속 틀어져,Q-001,quality,vision,,2
+QRY-006,생산량이 떨어지는 원인을 찾고 싶어,P-002|P-004,production,,,3
+QRY-007,전력 사용량을 줄이는 방법,E-001|E-002|E-003|E-004,energy,,,4
+QRY-008,plant_b의 안전 문서만 검색,S-002|S-005,safety,,plant_b,3
+QRY-009,plant_a의 압축기 관련 문서,M-006|E-002,,compressor,plant_a,3
+QRY-010,critical 등급 안전 문서,S-001|S-002|S-004,safety,,,5

@@ -1,0 +1,62 @@
+{
+  "equipment-v1": [
+    {
+      "document_id": "NS-V1-001",
+      "text": "모터 진동 경고 기준은 5.0 mm/s입니다.",
+      "metadata": {
+        "version": 1,
+        "category": "maintenance",
+        "plant": "plant_a"
+      }
+    },
+    {
+      "document_id": "NS-V1-002",
+      "text": "베어링 온도 경고 기준은 80도입니다.",
+      "metadata": {
+        "version": 1,
+        "category": "maintenance",
+        "plant": "plant_a"
+      }
+    }
+  ],
+  "equipment-v2": [
+    {
+      "document_id": "NS-V2-001",
+      "text": "모터 진동 경고 기준은 4.5 mm/s입니다.",
+      "metadata": {
+        "version": 2,
+        "category": "maintenance",
+        "plant": "plant_a"
+      }
+    },
+    {
+      "document_id": "NS-V2-002",
+      "text": "베어링 온도 경고 기준은 75도입니다.",
+      "metadata": {
+        "version": 2,
+        "category": "maintenance",
+        "plant": "plant_a"
+      }
+    }
+  ],
+  "production": [
+    {
+      "document_id": "NS-PROD-001",
+      "text": "운영 환경의 모터 경고 기준은 승인된 최신 버전을 사용합니다.",
+      "metadata": {
+        "environment": "production",
+        "category": "policy"
+      }
+    }
+  ],
+  "development": [
+    {
+      "document_id": "NS-DEV-001",
+      "text": "개발 환경에서는 신규 경고 기준을 검증 중입니다.",
+      "metadata": {
+        "environment": "development",
+        "category": "policy"
+      }
+    }
+  ]
+}

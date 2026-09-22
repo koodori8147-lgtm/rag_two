@@ -1,0 +1,49 @@
+{
+  "initial_ids": [
+    "M-001",
+    "M-002",
+    "M-003"
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "operation": "add",
+      "document": {
+        "document_id": "M-011",
+        "page_content": "모터 절연 저항이 기준보다 낮으면 권선 상태와 습기 유입 여부를 확인합니다.",
+        "metadata": {
+          "category": "maintenance",
+          "equipment": "motor",
+          "plant": "plant_a",
+          "severity": "high",
+          "source": "motor-guide-v2.md",
+          "version": 2
+        }
+      }
+    },
+    {
+      "step": 2,
+      "operation": "update",
+      "document_id": "M-002",
+      "new_page_content": "모터 베어링 온도가 70도를 넘으면 윤활 상태와 냉각 상태를 우선 확인합니다.",
+      "new_metadata": {
+        "category": "maintenance",
+        "equipment": "motor",
+        "plant": "plant_a",
+        "severity": "high",
+        "source": "motor-guide-v2.md",
+        "version": 2
+      }
+    },
+    {
+      "step": 3,
+      "operation": "delete",
+      "document_id": "M-003"
+    }
+  ],
+  "verification_queries": [
+    "모터 절연 저항 점검",
+    "모터 베어링 온도 기준",
+    "모터 정기 점검 주기"
+  ]
+}

@@ -1,0 +1,6 @@
+﻿filter_id,description,field,value,expected_doc_ids
+F-001,category equals maintenance,category,maintenance,M-001|M-002|M-003|M-004|M-005|M-006|M-007|M-008|M-009|M-010
+F-002,plant equals plant_b,plant,plant_b,M-003|M-005|M-008|M-010|S-002|S-005|Q-003|Q-005|P-003|P-004|E-003|E-004|L-002
+F-003,equipment equals motor,equipment,motor,M-001|M-002|M-003
+F-004,severity equals critical,severity,critical,S-001|S-002|S-004
+F-005,source equals quality-guide.md,source,quality-guide.md,Q-001|Q-002|Q-003|Q-004|Q-005
