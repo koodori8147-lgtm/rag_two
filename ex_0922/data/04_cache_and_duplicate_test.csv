@@ -1,0 +1,11 @@
+﻿text_id,text,group
+C001,베어링 온도가 상승했습니다.,exact_group_1
+C002,베어링 온도가 상승했습니다.,exact_group_1
+C003,베어링 온도가 상승했습니다.,exact_group_1
+C004,베어링의 온도가 높아졌습니다.,semantic_group_1
+C005,베어링이 과열되고 있습니다.,semantic_group_1
+C006,모터 진동이 정상 범위를 벗어났습니다.,exact_group_2
+C007,모터 진동이 정상 범위를 벗어났습니다.,exact_group_2
+C008,모터의 떨림이 기준보다 커졌습니다.,semantic_group_2
+C009,냉각수 온도가 상승했습니다.,different
+C010,생산량이 감소했습니다.,different

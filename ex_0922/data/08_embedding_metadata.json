@@ -1,0 +1,34 @@
+{
+  "index_name": "factory_embedding_practice",
+  "embedding_runs": [
+    {
+      "provider": "openai",
+      "model": "text-embedding-3-small",
+      "dimensions": 1024,
+      "normalized": null,
+      "namespace_example": "text-embedding-3-small-1024"
+    },
+    {
+      "provider": "huggingface",
+      "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+      "dimensions": "model_default",
+      "normalized": true,
+      "namespace_example": "hf-multilingual-minilm-normalized"
+    },
+    {
+      "provider": "upstage",
+      "model": "solar-embedding-1-large",
+      "dimensions": "model_default",
+      "normalized": "provider_default",
+      "namespace_example": "solar-embedding-1-large"
+    },
+    {
+      "provider": "ollama",
+      "model": "nomic-embed-text",
+      "dimensions": "model_default",
+      "normalized": "model_setting",
+      "namespace_example": "ollama-nomic-embed-text"
+    }
+  ],
+  "note": "모델, 버전, 차원 또는 정규화 설정이 바뀌면 같은 벡터 인덱스를 그대로 재사용하지 않는 실습용 메타데이터 예시입니다."
+}
