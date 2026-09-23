@@ -1,0 +1,9 @@
+﻿document_id,keyword,domain,text
+K-001,NXE-3800E,lithography,NXE-3800E 설치 후 진공 상태와 모듈 연결 상태를 확인합니다.
+K-002,E805,battery,E805 라인의 설비 조건 변경 후 품질 확인 절차를 수행합니다.
+K-003,ALM-0421,alarm,ALM-0421 알람은 모터 과진동 경고 코드이며 베어링 상태를 확인합니다.
+K-004,MTR-A17,motor,MTR-A17 모터는 6개월 주기로 진동 센서와 윤활 상태를 점검합니다.
+K-005,PKG-02,packaging,PKG-02 공정에서 실링 온도와 압력 조건을 확인합니다.
+K-006,VD-CH09,vacuum,VD-CH09 챔버의 목표 진공 도달 시간이 증가하면 누설 여부를 확인합니다.
+K-007,CAM-V03,vision,CAM-V03 비전 카메라는 위치 오차 증가 시 재캘리브레이션합니다.
+K-008,OHT-12,logistics,OHT-12 구간의 병목 발생 시 이송 우선순위와 속도 조건을 확인합니다.

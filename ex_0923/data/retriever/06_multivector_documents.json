@@ -1,0 +1,45 @@
+[
+  {
+    "document_id": "MV-001",
+    "full_text": "모터 진동이 증가하면 베어링 마모, 축 정렬 불량, 회전체 불균형을 순서대로 확인합니다. 진동 센서 체결 상태도 함께 확인합니다.",
+    "summary": "모터 진동 이상 원인과 점검 순서",
+    "hypothetical_questions": [
+      "모터가 심하게 떨릴 때 무엇을 확인해야 하나요?",
+      "축 정렬 불량은 어떤 증상과 관련 있나요?",
+      "베어링 마모를 의심할 수 있는 신호는 무엇인가요?"
+    ],
+    "metadata": {
+      "equipment": "motor",
+      "category": "maintenance",
+      "priority": 3
+    }
+  },
+  {
+    "document_id": "MV-002",
+    "full_text": "프레스 치수 불량이 증가하면 금형 마모, 소재 위치, 반복 정밀도, 측정기 교정 상태를 확인합니다.",
+    "summary": "프레스 치수 불량의 주요 점검 항목",
+    "hypothetical_questions": [
+      "프레스 제품 크기가 공차를 벗어나는 이유는 무엇인가요?",
+      "금형 마모와 치수 불량은 어떤 관계가 있나요?"
+    ],
+    "metadata": {
+      "equipment": "press",
+      "category": "quality",
+      "priority": 2
+    }
+  },
+  {
+    "document_id": "MV-003",
+    "full_text": "진공 챔버가 목표 압력에 도달하지 못하면 씰, 배관, 밸브 누설을 먼저 확인하고 이후 펌프 성능과 배기 라인을 점검합니다.",
+    "summary": "진공 도달 실패의 누설 및 펌프 점검",
+    "hypothetical_questions": [
+      "진공이 안 잡힐 때 어디부터 점검해야 하나요?",
+      "챔버 누설 여부는 어떤 부위를 확인하나요?"
+    ],
+    "metadata": {
+      "equipment": "vacuum_pump",
+      "category": "maintenance",
+      "priority": 3
+    }
+  }
+]

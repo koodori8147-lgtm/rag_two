@@ -1,0 +1,13 @@
+﻿document_id,equipment,year,priority,category,plant,text
+M-001,press,2025,3,maintenance,plant_a,프레스 설비의 유압은 매일 점검하고 누유 여부를 기록합니다.
+M-002,motor,2024,2,maintenance,plant_a,모터 진동 증가 시 베어링 마모와 축 정렬 상태를 점검합니다.
+M-003,conveyor,2025,3,safety,plant_b,컨베이어 비상 정지 후 전원을 차단하고 이물질을 제거합니다.
+M-004,motor,2023,1,maintenance,plant_b,"윤활유는 6개월 또는 2,000시간마다 교체합니다."
+M-005,vacuum_pump,2025,3,maintenance,plant_a,진공 챔버가 목표 압력에 도달하지 못하면 누설과 펌프 성능을 확인합니다.
+M-006,vision,2025,2,quality,plant_a,비전 검사 위치 오차가 증가하면 카메라 캘리브레이션과 조명 상태를 확인합니다.
+M-007,welder,2024,3,quality,plant_b,용접 강도가 기준보다 낮으면 전류와 가압 시간 조건을 확인합니다.
+M-008,robot,2025,3,safety,plant_a,로봇 작업 반경 진입 전 자동 운전을 해제하고 안전 인터록을 확인합니다.
+M-009,compressor,2025,2,energy,plant_a,압축 공기 누설을 줄이면 공장 전력 소비를 절감할 수 있습니다.
+M-010,oven,2023,1,energy,plant_b,오븐 예열 스케줄을 최적화하면 대기 전력 사용을 줄일 수 있습니다.
+M-011,motor,2025,3,maintenance,plant_a,모터 베어링 온도가 75도를 넘으면 윤활 상태와 냉각 상태를 점검합니다.
+M-012,press,2024,2,quality,plant_b,프레스 치수 불량이 증가하면 금형 마모와 위치 반복 정밀도를 확인합니다.

@@ -1,0 +1,9 @@
+﻿document_id,equipment,year,priority,category,plant,text
+SQ-001,press,2025,3,safety,plant_a,프레스 내부 작업 전 전원 차단과 잠금 절차를 수행합니다.
+SQ-002,press,2024,2,quality,plant_b,프레스 치수 불량 시 금형 마모와 반복 정밀도를 확인합니다.
+SQ-003,motor,2025,3,maintenance,plant_a,모터 진동 증가 시 베어링 마모와 축 정렬 상태를 점검합니다.
+SQ-004,motor,2023,1,maintenance,plant_b,"모터 윤활유는 6개월 또는 2,000시간마다 교체합니다."
+SQ-005,conveyor,2025,3,safety,plant_b,컨베이어 막힘 제거 전 전원을 차단하고 재가동 방지 조치를 합니다.
+SQ-006,vision,2025,2,quality,plant_a,비전 검사 위치 오차 증가 시 카메라 캘리브레이션을 수행합니다.
+SQ-007,vacuum_pump,2024,3,maintenance,plant_a,진공 도달 실패 시 누설과 펌프 성능을 확인합니다.
+SQ-008,robot,2025,3,safety,plant_a,로봇 작업 반경 진입 전 자동 운전을 해제합니다.

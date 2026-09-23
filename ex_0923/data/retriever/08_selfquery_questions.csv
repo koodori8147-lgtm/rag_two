@@ -1,0 +1,5 @@
+﻿query_id,natural_language_query,expected_filter_logic,expected_limit
+SQ-Q1,2025년에 작성된 중요도 3의 설비 문서 2개,year=2025 AND priority=3,2
+SQ-Q2,2025년 plant_a의 안전 문서,year=2025 AND plant=plant_a AND category=safety,
+SQ-Q3,중요도 2 이상인 모터 관련 문서,equipment=motor AND priority>=2,
+SQ-Q4,2024년 이전 유지보수 문서,year<=2024 AND category=maintenance,

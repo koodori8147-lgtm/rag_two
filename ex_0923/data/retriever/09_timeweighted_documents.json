@@ -1,0 +1,37 @@
+[
+  {
+    "document_id": "T-001",
+    "text": "모터 진동 증가 시 베어링 마모와 축 정렬을 점검합니다.",
+    "event_time": "2026-09-01T09:00:00+09:00",
+    "topic": "motor",
+    "importance": "high"
+  },
+  {
+    "document_id": "T-002",
+    "text": "모터 베어링 온도가 75도를 초과해 윤활 상태를 점검했습니다.",
+    "event_time": "2026-09-20T14:30:00+09:00",
+    "topic": "motor",
+    "importance": "high"
+  },
+  {
+    "document_id": "T-003",
+    "text": "모터 외관 청소와 케이블 상태 점검을 완료했습니다.",
+    "event_time": "2026-09-22T16:00:00+09:00",
+    "topic": "motor",
+    "importance": "low"
+  },
+  {
+    "document_id": "T-004",
+    "text": "진공 펌프 오일을 교체하고 도달 압력을 확인했습니다.",
+    "event_time": "2026-09-23T08:00:00+09:00",
+    "topic": "vacuum",
+    "importance": "medium"
+  },
+  {
+    "document_id": "T-005",
+    "text": "모터 진동 센서 체결 상태를 재점검했습니다.",
+    "event_time": "2026-09-23T08:40:00+09:00",
+    "topic": "motor",
+    "importance": "medium"
+  }
+]
