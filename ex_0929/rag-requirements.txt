@@ -8,6 +8,10 @@ langsmith
 
 python-dotenv
 pypdf
+pymupdf
+matplotlib
+seaborn
+numpy
 mysql-connector-python
 faiss-cpu
 chromadb
