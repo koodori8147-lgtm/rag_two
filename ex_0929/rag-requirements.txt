@@ -1,0 +1,16 @@
+langchain
+langchain-community
+langchain-openai
+langchain-classic
+langchain-chroma
+langchain-teddynote
+langsmith
+
+python-dotenv
+pypdf
+mysql-connector-python
+faiss-cpu
+chromadb
+sentence-transformers
+tiktoken
+unstructured
